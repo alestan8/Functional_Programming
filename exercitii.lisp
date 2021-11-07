@@ -8,7 +8,7 @@
 (defun inorder(tree)
   (cond
   ((null tree) nil)
-  (T (append (inorder (caddr tree)) (list (car tree))(inorder (cadr trees))))))
+  (T (append (inorder (caddr tree)) (list (car tree))(inorder (cadr tree))))))
 
 ;postorder
 (defun postorder(tree)
